@@ -18,11 +18,11 @@ Before you get started, you’ll need to complete these steps:
     - Flask [here](https://flask.palletsprojects.com/en/1.1.x/installation/#install-flask)
     - Requests [here](https://realpython.com/python-requests/)
     - Ngrok [here](https://ngrok.com/download)
+        - Exposes local server to internet to listen for incoming webhooks
+           ```shell
+            $ ./ngrok http 5000
+           ```
     - Dotenv [here](https://pypi.org/project/python-dotenv/#installation)
-    - Exposes local server to internet to listen for incoming webhooks
-       ```shell
-        $ ./ngrok http 5000
-       ```
 
 ## Telnyx Call Control Basics
 
