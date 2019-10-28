@@ -12,16 +12,16 @@ Before you get started, you’ll need to complete these steps:
               - Creating Connection through Mission Portal is easier than using API endpoint
 4. You’ll need to have the following to continue:
 
-              - Python [here](https://www.python.org/downloads/)
-                  - Check whether you already have python using the below command
+    - Python [here](https://www.python.org/downloads/)
+      - Check whether you already have python using the below command
 
                    ```shell
                     $ python -V
                    ```
-              - Flask [here](https://flask.palletsprojects.com/en/1.1.x/installation/#install-flask)
-              - Requests [here](https://realpython.com/python-requests/)
-              - Ngrok [here](https://ngrok.com/download)
-                  - Exposes local server to internet to listen for incoming webhooks
+      - Flask [here](https://flask.palletsprojects.com/en/1.1.x/installation/#install-flask)
+      - Requests [here](https://realpython.com/python-requests/)
+      - Ngrok [here](https://ngrok.com/download)
+      - Exposes local server to internet to listen for incoming webhooks
 
                    ```shell
                     $ ./ngrok http 5000
