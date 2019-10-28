@@ -14,6 +14,7 @@ Before you get started, you’ll need to complete these steps:
 
               - Python [here](https://www.python.org/downloads/)
                   - Check whether you already have python using the below command
+
                    ```shell
                     $ python -V
                    ```
@@ -21,6 +22,7 @@ Before you get started, you’ll need to complete these steps:
               - Requests [here](https://realpython.com/python-requests/)
               - Ngrok [here](https://ngrok.com/download)
                   - Exposes local server to internet to listen for incoming webhooks
+
                    ```shell
                     $ ./ngrok http 5000
                    ```
