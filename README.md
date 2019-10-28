@@ -8,8 +8,10 @@ Before you get started, you’ll need to complete these steps:
 1. Create a Telnyx account [here](https://telnyx.com/sign-up)
 2. Buy a Telnyx number on Mission Portal, that you can learn how to do [here](https://developers.telnyx.com/docs/v1/numbers/quickstarts/portal-setup)
 3. Create a new Connection as Call Control on Mission Portal, that you can learn how to do [here](https://developers.telnyx.com/docs/v1/numbers/quickstarts/portal-setup)
+
               - Creating Connection through Mission Portal is easier than using API endpoint
 4. You’ll need to have the following to continue:
+
               - Python [here](https://www.python.org/downloads/)
                   - Check whether you already have python using the below command
                    ```shell
