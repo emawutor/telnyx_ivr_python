@@ -50,5 +50,7 @@ Implement text message feature within call control application:
     <img src="https://raw.githubusercontent.com/team-telnyx/demo-ivr-node/master/examples/ivr_flow_example.png" width="90%" height="90%" title="sms_otp_example">
 </p>
 
+- Not pictured: Text message flow after hang-up
+
 
 
