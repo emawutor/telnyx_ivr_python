@@ -232,9 +232,9 @@ def api_webhooks():
 
     try:
         l_hook_event_type = data.get('event_type')
-        l_call_control_id = data.get('payload').get('call_control_id')
-        l_client_state_64 = data.get('payload').get('client_state')
-        l_call_from_number = data.get('payload').get('from')
+        l_call_control_id = data.get('payload').get('call_control_id','')
+        l_client_state_64 = data.get('payload').get('client_state','')
+        l_call_from_number = data.get('payload').get('from','')
     except Exception as e:
         print("[{}] LOG - Invalid Webhook received!".format(datetime.datetime.now()))
 
