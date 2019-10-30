@@ -256,16 +256,16 @@ def api_webhooks():
                 'To contact operations, please press 2.',
                 '12', '1', None))
         """ State >> Outbound >> Do Nothing """
-        return '', 204
+        return '', 200
     elif l_hook_event_type == 'speak_ended':
         """ Speach Ended >> Do Nothing """
-        return '', 204
+        return '', 200
     elif l_hook_event_type == 'call_hangup':
         """ Call Hangup """
         return jsonify(send_sms(l_call_from_number))
     elif l_hook_event_type == 'call_bridged':
         """ Call Bridged >> Do Nothing """
-        return '', 204
+        return '', 200
     elif l_hook_event_type == 'gather_ended':
         """ Gather Ended >> Proccess DTMF Input """
         # Receive DTMF Option
@@ -304,7 +304,7 @@ def api_webhooks():
                 elif l_ivr_option == '2':
                     return jsonify(call_control_transfer(l_call_control_id, g_sales_eng, data.get('payload').get('from')))
 
-        return '', 204
+        return '', 200
 
 
 
